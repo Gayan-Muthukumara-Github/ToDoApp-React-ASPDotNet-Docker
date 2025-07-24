@@ -9,43 +9,34 @@ namespace todo_backend.Controllers
     [Route("api/[controller]")]
     public class TasksController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        public TasksController(AppDbContext context)
+        private readonly Repositories.ITaskRepository _repository;
+        public TasksController(Repositories.ITaskRepository repository)
         {
-            _context = context;
-        }
-        // POST: api/tasks
-        [HttpPost]
-        public async Task<IActionResult> CreateTask([FromBody] TaskItem task)
-        {
-            _context.Tasks.Add(task);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetTasks), new { id = task.Id }, task);
+            _repository = repository;
         }
 
-        // GET: api/tasks
+        [HttpPost]
+        public async Task<IActionResult> CreateTask([FromBody] Models.TaskItem task)
+        {
+            task.CreatedAt = DateTime.UtcNow;
+            var createdTask = await _repository.AddTaskAsync(task);
+            return CreatedAtAction(nameof(GetTasks), new { id = createdTask.Id }, createdTask);
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetTasks()
         {
-            var tasks = await _context.Tasks
-                .Where(t => !t.IsCompleted)
-                .OrderByDescending(t => t.CreatedAt)
-                .Take(5)
-                .ToListAsync();
-
+            var tasks = await _repository.GetActiveTasksAsync(5);
             return Ok(tasks);
         }
 
-        // PUT: api/tasks/3/complete
         [HttpPut("{id}/complete")]
         public async Task<IActionResult> MarkAsCompleted(int id)
         {
-            var task = await _context.Tasks.FindAsync(id);
+            var task = await _repository.GetTaskByIdAsync(id);
             if (task == null) return NotFound();
 
-            task.IsCompleted = true;
-            await _context.SaveChangesAsync();
-
+            await _repository.MarkAsCompletedAsync(task);
             return NoContent();
         }
     }

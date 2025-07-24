@@ -26,6 +26,9 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Register repository
+builder.Services.AddScoped<todo_backend.Repositories.ITaskRepository, todo_backend.Repositories.TaskRepository>();
+
 var app = builder.Build();
 
 // Optional: comment out HTTPS redirection if you are not using HTTPS in container

@@ -128,10 +128,11 @@ D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\st
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.development.json
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-bac.B2C2EF35.Up2Date
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.dll
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\refint\todo-backend.dll
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.pdb
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.genruntimeconfig.cache
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\ref\todo-backend.dll
+D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.sourcelink.json
+D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
