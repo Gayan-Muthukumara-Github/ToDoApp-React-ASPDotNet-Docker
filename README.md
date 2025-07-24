@@ -1,4 +1,4 @@
-# 📝 TODO App - Full Stack (React + ASP.NET Core + PostgreSQL + Docker)
+# TODO App - Full Stack (React + ASP.NET Core + PostgreSQL + Docker)
 
 This is a simple full-stack TODO application built with:
 
@@ -94,18 +94,7 @@ You can configure environment variables (e.g., connection strings) inside:
 
 ---
 
-## Common Issues
-
-* **Docker Compose version warning** – safe to ignore, but you can remove the `version:` key in `docker-compose.yml`.
-* **Permission issues with `run.sh`** – make it executable:
-
-  ```bash
-  chmod +x run.sh
-  ```
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Gayan Muthukumara**
 GitHub: [@Gayan-Muthukumara-Github](https://github.com/Gayan-Muthukumara-Github)
