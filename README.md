@@ -39,7 +39,7 @@ ToDoApp/
    ```bash
    git clone https://github.com/Gayan-Muthukumara-Github/ToDoApp-React-ASPDotNet-Docker.git
    cd ToDoApp-React-ASPDotNet-Docker
-````
+   ````
 
 2. Run the full app using Docker:
 
