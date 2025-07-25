@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("todo-backend.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f8974bacd79776bf92ae5f1d16a692fadb28930")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab38618fbd6413a9110a358f356fd0c1925f5b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("todo-backend.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("todo-backend.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

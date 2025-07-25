@@ -135,3 +135,4 @@ D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\to
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.genruntimeconfig.cache
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\ref\todo-backend.dll
 D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\todo-backend.sourcelink.json
+D:\Gayan\InterviewProjects\ToDoApp\todo-backend\todo-backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
